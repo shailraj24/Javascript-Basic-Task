@@ -322,4 +322,74 @@
 
 //24
 
-// This files is on onther folder 
+// This files is on onther folder
+
+//25
+
+// const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
+
+// if (!shoppingCart.includes("Meat")) {
+//   shoppingCart.unshift("Meat");
+//   console.log(shoppingCart);
+// }
+// if (!shoppingCart.includes("sugar")) {
+//   shoppingCart.push("sugar");
+//   console.log(shoppingCart);
+// }
+
+// let allergic = true;
+
+// if (allergic) {
+//   shoppingCart.splice(shoppingCart.indexOf("Honey"), 1);
+//   console.log(shoppingCart);
+// }
+
+// shoppingCart[shoppingCart.indexOf("Tea")] = "Green Tea"
+// console.log(shoppingCart);
+
+//26
+
+// const countri = [
+//   "El Salvador",
+//   "Equatorial Guinea",
+//   "Eritrea",
+//   "Estonia",
+//   "Eswatini",
+//   "Ethopia"
+// ];
+
+// console.log(countri);
+
+// if (countri.includes("Ethopia")) {
+//    countri[countri.indexOf("Ethopia")] = "ETHOPIA"
+//    console.log(countri);
+// }
+// else {
+//     countri.push("Ethopia");
+//     console.log(countri);
+// }
+
+//27
+
+// const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+
+// console.log(`
+//     given array of age is ${ages} 
+//     maximum age is = ${Math.max(...ages)}
+//     minimum age is = ${Math.min(...ages)}
+// `);
+
+// let totalAge = 0;
+
+// ages.forEach((e) => {
+//   totalAge = totalAge + e;
+// });
+
+// let average = totalAge / ages.length;
+// console.log(`
+//     average of age is  ${average}`);
+
+// let median = ages[Math.round(ages.length / 2)];
+// console.log(`median of given ages is ${median}`);
+
+//28
